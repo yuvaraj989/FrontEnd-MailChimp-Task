@@ -1,0 +1,136 @@
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f8f9fa;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Add space between left section elements */
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add space between right section elements */
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Smooth transition for animation */
+    margin-right: 20px; /* Add space between logo and nav items */
+  }
+  
+  .logo-container:hover {
+    transform: translateY(-5px); /* Move logo up by 5px on hover */
+  }
+  
+  .logo-container h6 {
+    margin-left: 0.5rem;
+  }
+  
+  .search-icon {
+    margin-right: 10px;
+  }
+  
+  .language-selector {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .language-selector select {
+    margin-left: 5px;
+    padding: 3px;
+  }
+  
+  .sales-contact {
+    margin-right: 10px;
+  }
+  
+  .nav-items {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add space between nav items */
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Smooth transition for animation */
+    padding: 0.5rem; /* Add padding for nav items */
+  }
+  
+  
+  
+  .hovered {
+    font-weight: bold; /* Example: Add styling for hovered state */
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    color: #000;
+    
+  }
+  
+  .column-item {
+    flex: 1;
+    /* padding: 0 1rem; */
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .column-item a {
+    margin: 0.5rem 0; /* Add margin to ensure each item is in its own row */
+    text-decoration: none;
+    color: #000;
+    
+  }
+  
+  .column-item p {
+    margin: 0.5rem 0;
+  }
+  .column-item a.column-item p:hover {
+    background-color: rgb(120, 120, 145);
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .right-section .nav-item {
+    padding: 0.5rem 1rem; /* Add padding for buttons */
+   /* Add border radius for buttons */
+    background-color: #ffffff; /* Add background color for buttons */
+    
+  }
+  
+  .right-section .nav-item:hover {
+    background-color: #f1f1f1; /* Change background color on hover */
+  }
+  .icon-space {
+    margin-left: 8px;
+  }
+  .icons-nav{
+    margin-right: 10px;
+  }
